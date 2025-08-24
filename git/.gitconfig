@@ -1,0 +1,8 @@
+[user]
+	signingkey = 99C6FFE37C9B8DB78A3BE9C7C2E4609E9B00E6A5
+	name = preca-hoshino
+	email = 001@labmem.com.cn
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = master
