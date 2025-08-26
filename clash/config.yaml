@@ -22,34 +22,34 @@ dns:
     - 223.5.5.5
     - 8.8.8.8
 proxies:
-  - name: Hysteria2
+  - name: ARTS-R2-JP
     type: hysteria2
     server: 31.57.172.132
     port: 1741
     password: MurphyNeveu#34494=
     sni: bing.com
     skip-cert-verify: true
-  - name: shu
+  - name: SHU OpenVPN
     type: socks5
     server: 210.16.170.212
     port: 4080
 proxy-groups:
-  - name: auto
+  - name: Auto
     type: select
     proxies:
-      - Hysteria2
-      - shu
+      - ARTS-R2-JP
+      - SHU OpenVPN
 rules:
-  - DOMAIN-SUFFIX,shu.edu.cn,shu
+  - DOMAIN-SUFFIX,shu.edu.cn,SHU OpenVPN
   - GEOIP,CN,DIRECT
   - DOMAIN-KEYWORD,comic,DIRECT
   - DOMAIN-KEYWORD,jm,DIRECT
   - DOMAIN-SUFFIX,zoot.plus,DIRECT
   - DOMAIN-SUFFIX,maa.plus,DIRECT
-  - DOMAIN-KEYWORD,mexc,auto
-  - DOMAIN-KEYWORD,zerossl,auto
+  - DOMAIN-KEYWORD,mexc,Auto
+  - DOMAIN-KEYWORD,zerossl,Auto
   - DOMAIN-KEYWORD,betterstack,DIRECT
   # - DOMAIN-KEYWORD,cloudflare,auto
   - DOMAIN-SUFFIX,ea.com,DIRECT
   - DOMAIN-SUFFIX,tnt-ea.com,DIRECT
-  - MATCH,auto
+  - MATCH,Auto
