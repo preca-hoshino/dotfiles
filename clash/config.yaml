@@ -49,7 +49,7 @@ rules:
   - DOMAIN-KEYWORD,mexc,Auto
   - DOMAIN-KEYWORD,zerossl,Auto
   - DOMAIN-KEYWORD,betterstack,DIRECT
-  - DOMAIN-KEYWORD,cloudflare,auto
+  - DOMAIN-KEYWORD,cloudflare,Auto
   - DOMAIN-SUFFIX,ea.com,DIRECT
   - DOMAIN-SUFFIX,tnt-ea.com,DIRECT
   - MATCH,Auto
