@@ -69,7 +69,7 @@
         {
           "foreground": "green",
           "style": "plain",
-          "template": " \uf0ad  ",
+          "template": " \uf0ad   ",
           "type": "root"
         },
         {
