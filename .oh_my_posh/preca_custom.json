@@ -8,7 +8,6 @@
     "blue": "#8CAAEE",
     "white":"#ffffff",
     "purple":"#6b69d6"
-    // "purple":"#6b69d6"
   },
   "blocks": [
     {
@@ -68,7 +67,7 @@
       "alignment": "right",
       "segments": [
         {
-          "foreground": "p:white",
+          "foreground": "green",
           "style": "plain",
           "template": " \uf0ad ",
           "type": "root"
