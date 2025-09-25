@@ -40,7 +40,7 @@ proxy-groups:
       - ARTS-R2-JP
       - SHU OpenVPN
 rules:
-  - DOMAIN-SUFFIX,shu.edu.cn,SHU OpenVPN
+  - DOMAIN-SUFFIX,shu.edu.cn,DIRECT
   - GEOIP,CN,DIRECT
   - DOMAIN-SUFFIX,bing.com,DIRECT
   - DOMAIN-SUFFIX,miwifi.com,DIRECT
